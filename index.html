@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <title>Symphonic Echoes of Pink Floyd – Gutschein</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <style>
+    :root {
+      --bg1: #0f2027;
+      --bg2: #203a43;
+      --bg3: #2c5364;
+      --accent: #c084fc;
+      --text: #f5f5f5;
+      --muted: #cbd5e1;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI",
+                   Roboto, Helvetica, Arial, sans-serif;
+      background: linear-gradient(135deg, var(--bg1), var(--bg2), var(--bg3));
+      color: var(--text);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 24px;
+    }
+
+    .card {
+      max-width: 720px;
+      width: 100%;
+      background: rgba(255, 255, 255, 0.06);
+      backdrop-filter: blur(12px);
+      border-radius: 24px;
+      padding: 40px 32px;
+      box-shadow: 0 20px 60px rgba(0, 0, 0, 0.4);
+      animation: fadeIn 1.2s ease-out;
+    }
+
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+        transform: translateY(20px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    h1 {
+      margin: 0 0 16px;
+      font-size: clamp(1.6rem, 4vw, 2.2rem);
+      letter-spacing: 0.05em;
+      text-align: center;
+    }
+
+    .subtitle {
+      text-align: center;
+      color: var(--muted);
+      font-size: 1rem;
+      margin-bottom: 36px;
+    }
+
+    .highlight {
+      text-align: center;
+      font-size: 1.2rem;
+      color: var(--accent);
+      margin-bottom: 32px;
+      font-weight: 500;
+    }
+
+    .details {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 14px;
+      margin-bottom: 36px;
+    }
+
+    .detail {
+      padding: 14px 18px;
+      background: rgba(255, 255, 255, 0.08);
+      border-radius: 14px;
+      font-size: 0.95rem;
+    }
+
+    .detail strong {
+      color: var(--accent);
+      font-weight: 600;
+    }
+
+    .text {
+      text-align: center;
+      color: var(--muted);
+      line-height: 1.6;
+      margin-bottom: 40px;
+      font-size: 0.95rem;
+    }
+
+    .signature {
+      text-align: center;
+      font-size: 0.9rem;
+      letter-spacing: 0.08em;
+      color: var(--text);
+      opacity: 0.85;
+    }
+
+    .divider {
+      width: 60px;
+      height: 2px;
+      background: var(--accent);
+      margin: 32px auto;
+      border-radius: 2px;
+      opacity: 0.7;
+    }
+  </style>
+</head>
+
+<body>
+  <main class="card">
+    <h1>Symphonic Echoes of PINK FLOYD</h1>
+
+    <div class="subtitle">
+      Neue Philharmonie Frankfurt &amp; echoes
+    </div>
+
+    <div class="highlight">
+      🎶 Konzert-Gutschein 🎶
+    </div>
+
+    <div class="details">
+      <div class="detail">
+        <strong>Ort</strong><br />
+        Alte Oper Frankfurt<br />
+        Frankfurt am Main
+      </div>
+
+      <div class="detail">
+        <strong>Datum</strong><br />
+        Dienstag, 24. November 2026
+      </div>
+
+      <div class="detail">
+        <strong>Beginn</strong><br />
+        20:00 Uhr
+      </div>
+    </div>
+
+    <div class="divider"></div>
+
+    <div class="text">
+      Ein Abend voller Klangwelten, Emotionen und zeitloser Musik.<br />
+      Die legendären Werke von Pink Floyd in einer symphonischen
+      Interpretation, die unter die Haut geht.
+      <br /><br />
+      Die Tickets sind bereits bestellt und werden rechtzeitig
+      nachgereicht.
+    </div>
+
+    <div class="signature">
+      Dominic · Jana · Mathilda · Matteo
+    </div>
+  </main>
+</body>
+</html>
